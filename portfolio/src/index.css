@@ -95,8 +95,9 @@ header {
   background: var(--light);
 }
 
-header a {
+header a, header span{
   color: var(--darker);
+  font-weight: bold;
 }
 
 button {
