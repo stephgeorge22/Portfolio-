@@ -35,8 +35,9 @@ body {
   font-size: 18px;
   letter-spacing: .1em;
   background: var(--light);
-  color: var(--dark);
-  font-family: 'arial';
+  color: var(--darker);
+  /* font-family: 'arial'; */
+  font-family: 'Roboto', sans-serif;
 
 }
 
@@ -54,6 +55,8 @@ h6 {
 
 h1 {
   font-size: 2.25rem;
+  color: var(--darker);
+  font-weight: bold;
 }
 
 h2 {
@@ -151,6 +154,7 @@ li {
   list-style: none;
 }
 
+
 nav a:hover {
   text-decoration: none;
 }
@@ -176,6 +180,7 @@ textarea {
 .flex-row {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .space-between {
