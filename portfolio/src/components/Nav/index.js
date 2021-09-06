@@ -1,41 +1,41 @@
+// import React, { useState } from "react";
 import React from 'react';
 import { capitalizeFirstLetter } from "../../utils/helpers";
 
-function Nav() {
+function Nav(props) {
 
-    const categories = [
-        // { name: "About Me", description: "About me section", },
-        { name: "Portfolio", description: "A portfolio consisting of a few applications I've created" },
-        // { name: "Contact Me", description: "Contact me section" },
-        { name: "Resume", description: "A detailed resume of my work", },
-    ];
-
-    const handleClick = () => {
-        console.log("click handled")
-    }
+    const {
+        categories = [],
+        setCurrentCategory,
+        currentCategory,
+    } = props;
 
     return (
         <nav>
             <ul className="flex-row">
                 <li className="mx-2">
-                    <a href="#about" onClick={() => handleClick()}>
+                    <a data-testid="about" href="#about">
                         About me
                     </a>
                 </li>
-                <li className={"mx-2"}>
-                    <span onClick={() => handleClick()}>
-                        Contact
-                    </span>
+                <li className="mx-2">
+                    <span>Contact</span>
                 </li>
-                {
-                    categories.map((category) => (
-                        <li className="mx-1" key={category.name} >
-                            <span onClick={() => { handleClick(); }}>
-                                {capitalizeFirstLetter(category.name)}
-                            </span>
-                        </li>
-                    ))
-                }
+                {categories.map((category) => (
+                    <li
+                        className={`mx-1 ${currentCategory.name === category.name && 'navActive'
+                            }`}
+                        key={category.name}
+                    >
+                        <span
+                            onClick={() => {
+                                setCurrentCategory(category)
+                            }}
+                        >
+                            {capitalizeFirstLetter(category.name)}
+                        </span>
+                    </li>
+                ))}
             </ul>
         </nav>
     );
