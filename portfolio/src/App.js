@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import About from './components/About';
 import Header from './components/Header';
 import Portfolio from './components/Portfolio';
+import Contact from './components/Contact';
 
 function App() {
 
@@ -17,10 +18,10 @@ function App() {
   const displayComponents = () => {
     if (currentCategory.name ===   "Portfolio") {
       return <Portfolio></Portfolio>;
+    } else if (currentCategory.name === "Contact") {
+      return <Contact></Contact>
     } 
-    // else if (currentCategory.name === "Contact") {
-    //   return <Contact></Contact>
-    // } else if (currentCategory.name === "Resume") {
+    // else if (currentCategory.name === "Resume") {
     //   return <Resume></Resume>
     // }
     else {
