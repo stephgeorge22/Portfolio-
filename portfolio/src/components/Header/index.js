@@ -1,18 +1,16 @@
-// import React from 'react';
-import React, { useState } from "react";
+import React from 'react';
+// import React, { useState } from "react";
 
 import headerImage from "../../assets/header/header.png";
 import Nav from '../Nav';
 
-function Header() {
+function Header(props) {
 
-    const [categories] = useState([
-
-        { name: "Portfolio", description: "A portfolio consisting of a few applications I've created" },
-        { name: "Resume", description: "A detailed resume of my work", },
-    ]);
-
-    const [currentCategory, setCurrentCategory] = useState(categories[0]);
+    const {
+        categories = [],
+        setCurrentCategory,
+        currentCategory,
+    } = props;
 
     return (
         <header data-testid="header" className="flex-row px-1">
