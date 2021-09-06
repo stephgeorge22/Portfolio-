@@ -52,7 +52,7 @@ function Portfolio(props) {
         }
 
     ];
-    console.log(photos)
+    
     return (
 
         <section>
