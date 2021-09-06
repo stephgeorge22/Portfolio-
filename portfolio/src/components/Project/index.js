@@ -7,9 +7,9 @@ import Card from 'react-bootstrap/Card'
 const Project = (props) => {
 
     return (
-        <Card style={{ width: '18rem' }} className="bg-dark text-white">
+        <Card style={{ width: '18rem' }} className="bg-dark text-white polaroid">
             <Card.Img src={require(`../../assets/small/${props.image}.png`).default} alt={props.alt} />
-            <Card.ImgOverlay>
+            <Card.ImgOverlay classname="imgOverlay">
                 <Card.Title>{props.title}</Card.Title>
                 <Card.Text>
                     {props.description}

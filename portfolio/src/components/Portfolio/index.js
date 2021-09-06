@@ -52,24 +52,24 @@ function Portfolio(props) {
         }
 
     ];
-        console.log(photos)
+    console.log(photos)
     return (
-        
+
         <section>
             <h1 id="portfolio">Portfolio</h1>
-            
-            {photos.map((project) => (
-                <Project
-                    image={project.image}
-                    title={project.name}
-                    description={project.description}
-                    github={project.github}
-                    deployed={project.deployed}
-                    alt={project.name}
-                    key={project.name}
-                />
-            ))}
-        
+            <div className="flex-row">
+                {photos.map((project) => (
+                    <Project
+                        image={project.image}
+                        title={project.name}
+                        description={project.description}
+                        github={project.github}
+                        deployed={project.deployed}
+                        alt={project.name}
+                        key={project.name}
+                    />
+                ))}
+            </div>
         </section>
     );
 

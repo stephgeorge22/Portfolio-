@@ -23,9 +23,7 @@ function Nav(props) {
                     </a>
                 </li>
                 <li className="mx-2">
-                    <span onClick={() => handleClick('Contact')}>
-                        Contact
-                    </span>
+                    <span>Contact</span>
                 </li>
                 {categories.map((category) => (
                     <li
