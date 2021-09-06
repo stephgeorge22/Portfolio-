@@ -1,36 +1,78 @@
 import React from 'react';
-import { capitalizeFirstLetter } from '../../utils/helpers';
-import photo from "../../assets/small/reciplanner.jpg";
+// import React, { useState } from 'react';
+
+import Project from '../Project';
+// import { capitalizeFirstLetter } from '../../utils/helpers';
 
 
-function Portfolio() {
+function Portfolio(props) {
 
-    const work = {
-        name: "ReciPlanner",
-        description: "Express/Node/Sequelize",
-        deployed: "https://reciplanner.herokuapp.com/",
-        github: "https://github.com/stephgeorge22/reciplanner"
-    };
+    const photos = [
+        {
+            name: "ReciPlanner",
+            description: "Express/Node/Sequelize",
+            image: "0",
+            deployed: "https://reciplanner.herokuapp.com/",
+            github: "https://github.com/stephgeorge22/reciplanner"
+        },
+        {
+            name: "The Brokers",
+            description: "Jquery/API",
+            image: "1",
+            deployed: "https://stephgeorge22.github.io/The-Brokers/",
+            github: "https://github.com/stephgeorge22/The-Brokers"
+        },
+        {
+            name: "Weather Dashboard",
+            description: "Jquery/API",
+            image: "2",
+            deployed: "https://stephgeorge22.github.io/weather-dashboard/",
+            github: "https://github.com/stephgeorge22/weather-dashboard"
+        },
+        {
+            name: "Password Generator",
+            description: "Javascript",
+            image: "3",
+            deployed: "https://stephgeorge22.github.io/password-generator/",
+            github: "https://github.com/stephgeorge22/password-generator"
+        },
+        {
+            name: "Team Profile Generator",
+            description: "Node",
+            image: "4",
+            deployed: "https://drive.google.com/file/d/1jLGFKmy2kUSaN7-CY4dJKxRePO2_EGm_/view",
+            github: "https://github.com/stephgeorge22/team-profile-generator"
+        },
+        {
+            name: "Budget Tracker",
+            description: "PWA",
+            image: "5",
+            deployed: "https://sheltered-atoll-28192.herokuapp.com/",
+            github: "https://github.com/stephgeorge22/budget-tracker"
+        }
 
-    function changeBackground(e) {
-        e.target.style.background = 'red'
-    }
-
+    ];
+        console.log(photos)
     return (
+        
         <section>
-            <h1>Portfolio</h1>
-            <h1>{capitalizeFirstLetter(work.name)}</h1>
-            <p>{work.name}</p>
-            <div>
-                <img 
-                    onMouseEnter={changeBackground}
-                    src={photo}
-                    alt="ReciPlanner"
-                    className="img-thumbnail mx-1"
+            <h1 id="portfolio">Portfolio</h1>
+            
+            {photos.map((project) => (
+                <Project
+                    image={project.image}
+                    title={project.name}
+                    description={project.description}
+                    github={project.github}
+                    deployed={project.deployed}
+                    alt={project.name}
+                    key={project.name}
                 />
-            </div>
+            ))}
+        
         </section>
-    )
-}
+    );
+
+};
 
 export default Portfolio;
