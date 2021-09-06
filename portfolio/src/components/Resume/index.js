@@ -1,0 +1,19 @@
+import React from 'react';
+// import doc from '../../assets/resume/resume.pdf'
+
+function Resume() {
+    return (
+        <section className="my-5">
+            <h1>Resume</h1>
+
+            <a href={require("../../assets/resume/resume.pdf").default} download="StephanieGeorge_Resume.pdf">Download resume</a>
+
+            <h3>Technical Profien</h3>
+
+            {/* <p>A Full Stack Engineer pivoting to building the digital world from the physical world. With five years of professional experience and an Engineering degree, I am highly analytical, client/customer oriented and a true problem solver at heart. I recently earned a certificate in full stack development from the Rutgers Bootcamp, with a focus on JavaScript, bootstrap, node.js, express.js, and sequel. Thanks for stopping by my portfolio, feel free to browse to see I’ve utilized my skills to write algorithms and create applications. </p>
+            <img src={aboutImage} className="my-2" style={{ width: "50%" }} alt="about me" /> */}
+        </section>
+    );
+}
+
+export default Resume;

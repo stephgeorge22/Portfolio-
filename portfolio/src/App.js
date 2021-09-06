@@ -3,6 +3,7 @@ import About from './components/About';
 import Header from './components/Header';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
+import Resume from './components/Resume';
 
 function App() {
 
@@ -20,10 +21,9 @@ function App() {
       return <Portfolio></Portfolio>;
     } else if (currentCategory.name === "Contact") {
       return <Contact></Contact>
-    } 
-    // else if (currentCategory.name === "Resume") {
-    //   return <Resume></Resume>
-    // }
+    } else if (currentCategory.name === "Resume") {
+      return <Resume></Resume>
+    }
     else {
       return <About></About>;
     }

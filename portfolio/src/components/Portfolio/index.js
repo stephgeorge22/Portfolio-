@@ -1,9 +1,5 @@
 import React from 'react';
-// import React, { useState } from 'react';
-
 import Project from '../Project';
-// import { capitalizeFirstLetter } from '../../utils/helpers';
-
 
 function Portfolio(props) {
 
