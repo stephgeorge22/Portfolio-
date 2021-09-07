@@ -4,6 +4,7 @@ import Header from './components/Header';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import Resume from './components/Resume';
+import Footer from './components/Footer';
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
   ]);
 
   const [currentCategory, setCurrentCategory] = useState(categories[0]);
+  const [contactSelected, setContactSelected] = useState(false);
 
   const displayComponents = () => {
     if (currentCategory.name ===   "Portfolio") {
@@ -33,11 +35,14 @@ function App() {
       <Header
         categories={categories}
         setCurrentCategory={setCurrentCategory}
+        contactSelected={contactSelected}
         currentCategory={currentCategory}
+        setContactSelected={setContactSelected}
       ></Header>
       <main>
         { displayComponents() }
       </main>
+      <Footer></Footer>
     </div>
   );
 }
