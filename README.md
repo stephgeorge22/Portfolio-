@@ -1,7 +1,7 @@
 # Portfolio
 
 ## Description 
-This website has been created using react and is my personal portfolio! 
+This website has been created using react and is my personal portfolio! You can find an about me, contact me, portfolio, and resume page! 
 
 ## Table of Contents
 
@@ -14,7 +14,7 @@ This website has been created using react and is my personal portfolio!
 This application requries no installation. 
 
 ## Usage 
-
+Deployed Link: https://stephgeorge22.github.io/Portfolio-/
 
 ## Contributing
 Please refer to this link:https://www.contributor-covenant.org/
