@@ -5,6 +5,13 @@ function Portfolio(props) {
 
     const photos = [
         {
+            name: "HotSauceBoss",
+            description: "React/Graphql/Mongo",
+            image: "6",
+            deployed: "https://hot-sauce-boss.herokuapp.com/",
+            github: "https://github.com/stephgeorge22/The-Brokers"
+        },
+        {
             name: "ReciPlanner",
             description: "Express/Node/Sequelize",
             image: "0",
@@ -32,13 +39,13 @@ function Portfolio(props) {
             deployed: "https://stephgeorge22.github.io/password-generator/",
             github: "https://github.com/stephgeorge22/password-generator"
         },
-        {
-            name: "Team Profile Generator",
-            description: "Node",
-            image: "4",
-            deployed: "https://drive.google.com/file/d/1jLGFKmy2kUSaN7-CY4dJKxRePO2_EGm_/view",
-            github: "https://github.com/stephgeorge22/team-profile-generator"
-        },
+        // {
+        //     name: "Team Profile Generator",
+        //     description: "Node",
+        //     image: "4",
+        //     deployed: "https://drive.google.com/file/d/1jLGFKmy2kUSaN7-CY4dJKxRePO2_EGm_/view",
+        //     github: "https://github.com/stephgeorge22/team-profile-generator"
+        // },
         {
             name: "Budget Tracker",
             description: "PWA",
