@@ -9,7 +9,7 @@ function Portfolio(props) {
             description: "React/Graphql/Mongo",
             image: "6",
             deployed: "https://hot-sauce-boss.herokuapp.com/",
-            github: "https://github.com/stephgeorge22/The-Brokers"
+            github: "https://github.com/JConnrO/hot-sauce-boss"
         },
         {
             name: "ReciPlanner",
