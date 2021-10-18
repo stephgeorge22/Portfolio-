@@ -1,5 +1,4 @@
 import React from 'react';
-// import doc from '../../assets/resume/resume.pdf'
 
 function Resume() {
     return (

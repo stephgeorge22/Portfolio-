@@ -1,7 +1,5 @@
-// import React, { useState } from 'react';
 import React from 'react';
 
-// import photo from '../../assets/small/reciplanner.jpg';
 import Card from 'react-bootstrap/Card'
 
 const Project = (props) => {

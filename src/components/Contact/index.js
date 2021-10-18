@@ -35,18 +35,12 @@ function ContactForm() {
 
     function handleSubmit(e) {
         e.preventDefault();
-        // console.log(formState);
-        // console.log(process.env.REACT_APP_TEMPLATE_ID);
-        // console.log(process.env.REACT_APP_USER_ID)
-        // console.log(process.env.REACT_APP_SERVICE_ID)
 
         emailjs.sendForm(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, e.target, process.env.REACT_APP_USER_ID)
             .then((result) => {
-                // alert("Thanks for your message, I'll get back to you shortly", result.text);
                 setErrorMessage("Thanks for your message. I'll get back to you shortly")
             },
                 (error) => {
-                    // alert("An error occurred, Please try again", error.text);
                     setErrorMessage("An error occured, please try again")
                 });
     }
