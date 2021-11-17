@@ -9,6 +9,7 @@ This website has been created using react and is my personal portfolio! You can 
 * [Deployment](#deployment)
 * [Usage](#usage)
 * [Questions](#questions)
+* [License](#license)
 
 ## Technology
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
