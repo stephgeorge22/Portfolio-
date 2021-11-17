@@ -19,8 +19,17 @@ Deployed Link: https://stephgeorge22.github.io/Portfolio-/
 
 ## Usage
 
-You can naviagate through the different mennu options without the page needing to refresh. 
+Naviagate through the different mennu options without any page refresh. 
 ![Screenshot](src/assets/readme/readme.png)
+
+Send me a message which I will respond to within 24 hours. The contact form was built utilizing Email.js to bypass the need for a backend. 
+![image](https://user-images.githubusercontent.com/48072176/142089450-d233132c-8813-4529-805e-095bf3154cc9.png)
+
+Check out some of the projects I'm most proud of. Each card has an github icon which serves as a button to the repo and a website icon which serves as a button to the deployed application. Click away! 
+![image](https://user-images.githubusercontent.com/48072176/142089641-b42cb794-dbeb-4d60-b856-e3010c2becdd.png)
+
+Clicking the download link, will automatically download my resume for you.
+![image](https://user-images.githubusercontent.com/48072176/142089866-f2d06469-3784-4b65-9c7f-dc02a3eda850.png)
 
 ## Questions
 Hi, I'm Stephanie. If you like my work and want to connect please feel free to reach out!
@@ -31,7 +40,7 @@ Email: stephanie.george22@gmail.com
 ## License 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Copyright 2021 Stephgeorge22
+Copyright 2021 stephgeorge22
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
