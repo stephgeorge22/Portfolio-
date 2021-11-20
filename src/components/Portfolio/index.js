@@ -4,13 +4,13 @@ import Project from '../Project';
 function Portfolio(props) {
 
     const photos = [
-        {
-            name: "HotSauceBoss",
-            description: "React/Graphql/Mongo",
-            image: "6",
-            deployed: "https://hot-sauce-boss.herokuapp.com/",
-            github: "https://github.com/JConnrO/hot-sauce-boss"
-        },
+        // {
+        //     name: "HotSauceBoss",
+        //     description: "React/Graphql/Mongo",
+        //     image: "6",
+        //     deployed: "https://hot-sauce-boss.herokuapp.com/",
+        //     github: "https://github.com/JConnrO/hot-sauce-boss"
+        // },
         {
             name: "ReciPlanner",
             description: "Express/Node/Sequelize",
