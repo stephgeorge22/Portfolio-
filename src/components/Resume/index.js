@@ -5,7 +5,7 @@ function Resume() {
         <section className="my-5">
             <h1>Resume</h1>
 
-            <a href={require("../../assets/resume/resume.pdf").default} download="StephanieGeorge_Resume.pdf">Download resume</a>
+            <a href={require("../../assets/resume/StephanieGeorgeResume.pdf").default} download="StephanieGeorge_Resume.pdf">Download resume</a>
 
             <h3>Proficiences</h3>
             <ul>
