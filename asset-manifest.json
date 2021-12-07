@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Portfolio-/static/css/main.af2163ed.chunk.css",
-    "main.js": "/Portfolio-/static/js/main.02867dac.chunk.js",
-    "main.js.map": "/Portfolio-/static/js/main.02867dac.chunk.js.map",
+    "main.js": "/Portfolio-/static/js/main.ade3ec2b.chunk.js",
+    "main.js.map": "/Portfolio-/static/js/main.ade3ec2b.chunk.js.map",
     "runtime-main.js": "/Portfolio-/static/js/runtime-main.6d737708.js",
     "runtime-main.js.map": "/Portfolio-/static/js/runtime-main.6d737708.js.map",
     "static/js/2.51049d12.chunk.js": "/Portfolio-/static/js/2.51049d12.chunk.js",
@@ -18,14 +18,14 @@
     "static/media/4.png": "/Portfolio-/static/media/4.1b4737fc.png",
     "static/media/5.png": "/Portfolio-/static/media/5.8ec38c9c.png",
     "static/media/6.png": "/Portfolio-/static/media/6.a975f6e9.png",
+    "static/media/StephanieGeorgeResume.pdf": "/Portfolio-/static/media/StephanieGeorgeResume.0fadb838.pdf",
     "static/media/about-image.36003f93.JPG": "/Portfolio-/static/media/about-image.36003f93.JPG",
-    "static/media/header.598ad50a.png": "/Portfolio-/static/media/header.598ad50a.png",
-    "static/media/resume.pdf": "/Portfolio-/static/media/resume.42e0b593.pdf"
+    "static/media/header.598ad50a.png": "/Portfolio-/static/media/header.598ad50a.png"
   },
   "entrypoints": [
     "static/js/runtime-main.6d737708.js",
     "static/js/2.51049d12.chunk.js",
     "static/css/main.af2163ed.chunk.css",
-    "static/js/main.02867dac.chunk.js"
+    "static/js/main.ade3ec2b.chunk.js"
   ]
 }
